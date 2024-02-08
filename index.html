@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="tabela de cadastro">
+    <title>Tabela</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h2 id="titulo" style="color: white;">Tabela de cadastro</h1>
+        <button type="button"  id="cadastro" class="butao" data-toggle="modal" data-target="#myModal">Cadastrar</button>
+    </div>
+    
+    <table border="1" id="tabelinha">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Endereço</th>
+                <th>Telefone</th>
+                <th>Função</th>
+            </tr>
+        </thead>
+    </table>
+
+    <!-- Modal -->
+    <div class="modal" id="myModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Cadastrar pessoa</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal Body -->
+                <div class="modal-body">
+                    <label for="modalNome">Nome:</label>
+                    <input id="modalNome" class="input-text" autocomplete="off" placeholder="Nome" type="text" required />
+
+                    <label for="modalCidade">Endereço:</label>
+                    <input id="modalCidade" class="input-text" autocomplete="off" placeholder="Endereço" type="text" required />
+
+                    <label for="modalIdade">Telefone:</label>
+                    <input id="modalIdade" class="input-text" autocomplete="off" placeholder="Telefone" type="number" required />
+                </div>
+
+                <!-- Modal Footer -->
+                <div class="modal-footer">
+                    <button type="button" class="butao" onclick="salvarRegistro()">Salvar</button>
+                    <button type="button" class="butao" data-dismiss="modal">Cancelar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
