@@ -10,7 +10,7 @@ Este projeto consiste em uma tabela de cadastro simples, utilizando HTML, CSS e 
 
 ## Como usar
 
-Clique nesse link: [Tabela](https://tabelacadastro.netlify.app)
+Clique na imagem ou nesse link: [Tabela](https://tabelacadastro.netlify.app)
 
 ## Tecnologias Utilizadas
 
