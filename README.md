@@ -3,11 +3,14 @@
 Este projeto consiste em uma tabela de cadastro simples, utilizando HTML, CSS e JavaScript. A aplicação permite ao usuário adicionar, editar e remover registros de pessoas na tabela.
 
 ## Layout
-![tabela](https://github.com/Lucasleallopes/Tabela-de-cadastro/assets/82278599/b508c6be-dd85-4a99-b022-d3bedfb743de)
+
+<a href="https://tabelacadastro.netlify.app">
+    <img src="https://github.com/Lucasleallopes/Tabela-de-cadastro/assets/82278599/b508c6be-dd85-4a99-b022-d3bedfb743de" width="80%" alt="imagem">
+</a>
 
 ## Como usar
 
-Clique nesse link: https://tabelacadastro.netlify.app
+Clique nesse link: [Tabela](https://tabelacadastro.netlify.app)
 
 ## Tecnologias Utilizadas
 
